@@ -1,5 +1,10 @@
 # frontend
 
+## PEANUT FRIENDS FRONT DEMO VERSION
+```
+땅콩친구들 프론트 Vue.js 데모 버전
+```
+
 ## Project setup
 ```
 npm install
