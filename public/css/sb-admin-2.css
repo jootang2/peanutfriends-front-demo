@@ -2355,6 +2355,12 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+.btn-peanut {
+  color: #fff;
+  background-color: #C58940;
+  border-color: #C58940;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #4e73df;
@@ -9900,8 +9906,7 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #4e73df;
-  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-color: #C58940;
   background-size: cover;
 }
 
@@ -11278,4 +11283,7 @@ footer.sticky-footer .copyright {
 
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
+}
+.peanutLogo {
+  background-image: url(../public/img/peanut.png);
 }
