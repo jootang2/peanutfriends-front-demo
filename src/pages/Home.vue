@@ -1,5 +1,5 @@
 <template>
-  <Header/>
+  <body id="page-top">
   <!-- Page Wrapper -->
   <div id="wrapper">
 
@@ -277,16 +277,15 @@
       </div>
     </div>
   </div>
+  </body>
 </template>
 
 <script>
-import Header from "@/App.vue";
 import axios from "axios";
 import {reactive} from "vue";
 
 export default {
   name: "Home",
-  components: {Header},
   setup(){
     const state = reactive({
       responseTest: ""
